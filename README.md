@@ -3,6 +3,8 @@ Next-Gen Wordpress Hacker Backend
 
 Get your Dark Shell before your neighbour does!
 
+![Next-Gen Wordpress Hacker Backend](https://cloud.githubusercontent.com/assets/934819/12144211/8539632a-b486-11e5-86d0-324f3435bfe2.png)
+
 # Background
 
 My non-tech friend has a Wordpress.com installation. One day he writes me to complain
