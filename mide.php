@@ -20,10 +20,14 @@ color: #33CC99;
 }
 a:hover{
 text-decoration: none;
-Color: #3399FF;
+color: #3399FF;
+cursor: pointer;
 }
 table {
 font-size: 11px;
+}
+.list-files tr:hover {
+  background-color: #CCCCCC;
 }
 </style>
 <?php
@@ -235,7 +239,7 @@ break;
 clearstatcache ();
 
 echo "<pre>\n\n</pre>";
-echo "<table width = 100%>\n";
+echo "<table class="list-files" width = 100%>\n";
 $files = scandir ($dir);
 foreach ($files as $file){
 if (is_file ($file)){
